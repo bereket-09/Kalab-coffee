@@ -1,71 +1,70 @@
-# Welcome to Filapanel
+# Kalab Coffee Web Application
 
-*Brought to you by [Ploi - a server management tool](https://ploi.io/?ref=filapanel-github)*
+## Overview
 
-[https://filapanel.com](https://filapanel.com?ref=filapanel-github)
+Welcome to the CoffeeShop web application! This project is a comprehensive solution built on Laravel, tailored specifically for coffee shop owners to manage their online presence effectively. It offers a robust admin dashboard for seamless management and a sleek frontend to showcase your coffee shop's offerings in an appealing and responsive manner.
 
-<p align="center"><a href="https://filapanel.com/?ref=filapanel-github" target="_blank"><img src="https://filapanel.com/img/og.png" width="100%" alt="Filapanel"></a></p>
+## Features
 
-Generated on: 2024-03-08 12:48:19 (UTC)
+### Admin Dashboard
 
-Filapanel is your dynamic, user-friendly tool for accelerating Laravel application development. Built on the Filament framework, it provides a seamless approach for creating, configuring, and managing resources and models.
+#### User Roles
+- **Admin**: Empowered with full control over the site's management.
+- **Normal User**: Enables regular users to perform necessary tasks.
 
-## Installed packages
+#### Subscription and Customer Management
+- **Subscriptions**: Manage customer subscriptions to newsletters and promotions.
+- **Customer Management**: Keep track of customer details and contact information.
+- **Contact Us Requests**: Capture and store inquiries and feedback from the frontend.
 
-- [Php-Smpp Php-Smpp](https://github.com/php-smpp/php-smpp)
-- [Php-Curl-Class Php-Curl-Class](https://github.com/php-curl-class/php-curl-class)
-- [Curl Curl](https://github.com/curl/curl)
+#### Events Management
+- **Events CRUD**: Create, read, update, and delete events to keep customers informed.
+- **Event Registrations**: Facilitate customer registrations for events, ensuring seamless participation.
 
-## Further installation
+#### Site Management
+- **Flavor Management**: Customize flavor profiles to entice customers visually.
+- **Menu Management**: Easily update and maintain the menu, including pricing and descriptions.
+- **Testimonial Management**: Showcase customer testimonials to build trust and credibility.
 
-Now that you've got your project, it's time to finish up installation. Please make sure to run the following commands
-either in your local project or in your deployment tool.
+#### Blog Management
+- **Content Management**: Create captivating blog posts to engage with your audience.
+- **Category Management**: Organize posts efficiently with customizable categories.
+- **Author Management**: Manage author profiles and assign credits appropriately.
+- **Slang Management**: Incorporate trendy slangs to resonate with your target demographic.
 
-### Run composer install
+### Frontend
 
-```
-composer install
-```
+- **Responsive Design**: Ensures optimal viewing experience across devices, enhancing accessibility.
+- **Aesthetic Presentation**: Showcases content in a visually appealing layout, reflecting the brand's identity.
+- **User-Friendly Navigation**: Simplifies browsing, making it easy for customers to find relevant information.
 
-### Create your `.env`
+## Installation
 
-```
-cp .env.example .env
-```
+1. **Clone Repository**: Begin by cloning the repository to your local machine.
+2. **Install Dependencies**: Run `composer install` to install project dependencies.
+3. **Configure Environment**: Set up your environment variables in the `.env` file.
+4. **Database Migration**: Execute `php artisan migrate` to set up the database schema.
+5. **Start Server**: Launch the development server with `php artisan serve`.
 
-Now create a new database and enter the credentials inside your environment file.
+## Usage
 
-### Set your app key
+- **Admin Dashboard Access**: Log in to the admin dashboard by navigating to `/admin`.
+- **Credential Management**: Utilize provided credentials for admin or normal user access.
+- **Navigation**: Explore different sections to manage subscriptions, events, site content, and blog posts.
+- **Frontend Experience**: Visit the frontend to experience the visually captivating presentation of your coffee shop's offerings.
 
-```
-php artisan key:generate
-```
+## Technologies Used
 
-### Upgrade Filament
+- **Laravel**: The PHP framework powering the backend infrastructure.
+- **PHP**: The server-side scripting language for dynamic web development.
+- **MySQL**: The relational database management system for data storage.
+- **HTML/CSS**: The markup and styling languages for building web pages.
+- **JavaScript**: The programming language for enhancing frontend interactivity.
 
-```
-php artisan filament:upgrade
-```
+## Contributors
 
-### Run migrations
+- [Bereket Zelalem](https://github.com/bereket-09)
 
-```
-php artisan migrate:fresh
-```
+## License
 
-### Link storage
-
-```
-php artisan storage:link
-```
-
-### All as one command
-
-```
-composer install && 
-cp .env.example .env &&
-php artisan key:generate && 
-php artisan filament:upgrade &&
-php artisan migrate:fresh &&
-php artisan storage:link
-```
+This project is licensed under the [MIT License](link to license file). Feel free to customize and adapt it to suit your coffee shop's unique requirements. Enjoy brewing delightful experiences for your customers!
