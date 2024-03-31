@@ -49,6 +49,7 @@ Welcome to the CoffeeShop web application! This project is a comprehensive solut
 ## Usage
 
 - **Admin Dashboard Access**: Log in to the admin dashboard by navigating to `/admin`.
+- **User Dashboard Access**: Log in to the user dashboard by navigating to `/user`.
 - **Credential Management**: Utilize provided credentials for admin or normal user access.
 - **Navigation**: Explore different sections to manage subscriptions, events, site content, and blog posts.
 - **Frontend Experience**: Visit the frontend to experience the visually captivating presentation of your coffee shop's offerings.
