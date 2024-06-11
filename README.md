@@ -4,6 +4,10 @@
 
 Welcome to the CoffeeShop web application! This project is a comprehensive solution built on Laravel, tailored specifically for coffee shop owners to manage their online presence effectively. It offers a robust admin dashboard for seamless management and a sleek frontend to showcase your coffee shop's offerings in an appealing and responsive manner.
 
+## Demo link
+Demo link: https://kalabcoffee.com
+
+
 ## Features
 
 ### Admin Dashboard
